@@ -1,0 +1,58 @@
+=========================
+2006-03-14 01:33:15 v1_00
+=========================
+
+  2006-03-13 17:09:41 (r10) by rcaputo
+  lib/Filter/Template.pm M; t/01_inline.t M;
+  lib/Filter/Template/UseBytes.pm M; MANIFEST.SKIP M
+
+    We're calling them templates now. By the way, don't include .tmp or
+    .svn files in the MANIFEST. 
+
+  2006-03-13 15:20:51 (r9) by rcaputo
+  lib/Filter/Inline.pm D; lib/Filter/Inline D
+
+    Renamed these. 
+
+  2006-03-13 15:20:41 (r8) by rcaputo; lib/Filter/Template.pm A
+
+    Renamed the file to match the new module name. 
+
+  2006-03-13 15:19:03 (r7) by rcaputo
+  lib/Filter/Template/UseBytes.pm R; lib/Filter/Template A
+
+    Rename the files for the new module name. 
+
+  2006-03-13 15:17:37 (r6) by rcaputo
+  t/01_inline.t M; lib/Filter/Inline.pm M; Makefile.PL M;
+  lib/Filter/Inline/UseBytes.pm M; t/02_usebytes.t M
+
+    Rename Inline to Template in the source code. 
+
+  2006-03-13 15:17:19 (r5) by rcaputo; MANIFEST D
+
+    Remove this. It should be generated automatically. 
+
+  2006-03-12 00:06:17 (r4) by rcaputo
+  lib/Filter/Inline.pm M; lib/Filter/Inline/UseBytes.pm M
+
+    Give the UseBytes macro a version number for indexing. Revise the
+    documentation harshly. 
+
+  2006-03-11 23:22:37 (r3) by rcaputo
+  t/01_inline.t M; lib/Filter/Inline.pm M; Makefile.PL M;
+  lib/Filter/Inline/UseBytes.pm M; t/02_usebytes.t M
+
+    Fix up the Id tags, add keywords to files, and set the version
+    explicitly. 
+
+  2006-03-11 23:00:32 (r1) by rcaputo
+  /trunk A; t A; t/01_inline.t A; lib/Filter/Inline.pm A; lib A; MANIFEST
+  A; Makefile.PL A; lib/Filter/Inline/UseBytes.pm A; lib/Filter/Inline A;
+  t/02_usebytes.t A; lib/Filter A; MANIFEST.SKIP A
+
+    Initial commit. 
+
+==============
+End of Excerpt
+==============

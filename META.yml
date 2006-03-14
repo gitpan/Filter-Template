@@ -1,0 +1,12 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Filter-Template
+version:      1.00
+version_from: lib/Filter/Template.pm
+installdirs:  site
+requires:
+    Filter::Util::Call:            1.0601
+    Test::More:                    0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.28
