@@ -1,11 +1,11 @@
-# $Id: Template.pm 12 2006-03-14 05:56:22Z rcaputo $
+# $Id: Template.pm 14 2006-06-12 04:27:31Z rcaputo $
 
 package Filter::Template;
 
 use strict;
 
 use vars qw($VERSION);
-$VERSION = '1.01';
+$VERSION = '1.02';
 
 use Carp qw(croak);
 use Filter::Util::Call;

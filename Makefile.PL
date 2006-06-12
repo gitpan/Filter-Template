@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $Id: Makefile.PL 6 2006-03-13 15:17:37Z rcaputo $
+# $Id: Makefile.PL 14 2006-06-12 04:27:31Z rcaputo $
 
 use ExtUtils::MakeMaker;
 
@@ -13,7 +13,7 @@ WriteMakefile(
 	VERSION_FROM => 'lib/Filter/Template.pm',
 
 	PREREQ_PM    => {
-		'Filter::Util::Call'  => 1.0601,
+		'Filter::Util::Call'  => 1.06,
 		'Test::More'          => 0,
 	},
 	dist         => {
