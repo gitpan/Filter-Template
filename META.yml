@@ -1,14 +1,26 @@
 --- #YAML:1.0
-name:                Filter-Template
-version:             1.02
-abstract:            Source filter for inline code templating.
-license:             unknown
-generated_by:        ExtUtils::MakeMaker version 6.30_01
-author:              Rocco Caputo <rcaputo@cpan.org>
-distribution_type:   module
-requires:     
-    Filter::Util::Call:            1.06
-    Test::More:                    0
+name:               Filter-Template
+version:            1.03
+abstract:           Source filter for inline code templating.
+author:
+    - Rocco Caputo <rcaputo@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Filter::Util::Call:  1.06
+    Test::More:          0
+resources:
+    license:     http://dev.perl.org/licenses/
+    repository:  http://thirdlobe.com/svn/filter-template/trunk
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.54
 meta-spec:
-    url: <http://module-build.sourceforge.net/META-spec-new.html>;
-    version: 1.1
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

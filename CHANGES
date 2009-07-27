@@ -1,75 +1,24 @@
-=========================
-2006-06-12 04:27:42 v1_02
-=========================
+=================================
+2009-07-27T16:05:30.896051Z v1_03
+=================================
 
-  2006-06-12 04:27:31 (r14) by rcaputo
+  2009-07-27 16:05:03 (r19) by rcaputo; lib/Filter/Template.pm M
+
+    Reorganize documentation links.
+
+  2009-07-27 04:41:20 (r18) by rcaputo
   lib/Filter/Template.pm M; Makefile.PL M
 
-    Was requiring a dependency version that didn't yet exist. Backed that
-    down, and bumped the release to 1.02. 
+    Add a machine-readable repository directory. Add BUG TRACKER,
+    REPOSITORY and OTHER RESOURCES sections to the docs. 
 
-=========================
-2006-03-14 05:56:33 v1_01
-=========================
+  2006-11-06 19:20:46 (r17) by rcaputo; Makefile.PL M
 
-  2006-03-14 05:56:22 (r12) by rcaputo; lib/Filter/Template.pm M
+    Set a LICENSE. Cheap kwalitee points!
 
-    Totally forgot the README. D'oh. 
+  2006-07-20 23:13:23 (r16) by rcaputo; lib/Filter/Template.pm M
 
-=========================
-2006-03-14 01:33:15 v1_00
-=========================
-
-  2006-03-13 17:09:41 (r10) by rcaputo
-  lib/Filter/Template.pm M; t/01_inline.t M;
-  lib/Filter/Template/UseBytes.pm M; MANIFEST.SKIP M
-
-    We're calling them templates now. By the way, don't include .tmp or
-    .svn files in the MANIFEST. 
-
-  2006-03-13 15:20:51 (r9) by rcaputo
-  lib/Filter/Inline.pm D; lib/Filter/Inline D
-
-    Renamed these. 
-
-  2006-03-13 15:20:41 (r8) by rcaputo; lib/Filter/Template.pm A
-
-    Renamed the file to match the new module name. 
-
-  2006-03-13 15:19:03 (r7) by rcaputo
-  lib/Filter/Template/UseBytes.pm R; lib/Filter/Template A
-
-    Rename the files for the new module name. 
-
-  2006-03-13 15:17:37 (r6) by rcaputo
-  t/01_inline.t M; lib/Filter/Inline.pm M; Makefile.PL M;
-  lib/Filter/Inline/UseBytes.pm M; t/02_usebytes.t M
-
-    Rename Inline to Template in the source code. 
-
-  2006-03-13 15:17:19 (r5) by rcaputo; MANIFEST D
-
-    Remove this. It should be generated automatically. 
-
-  2006-03-12 00:06:17 (r4) by rcaputo
-  lib/Filter/Inline.pm M; lib/Filter/Inline/UseBytes.pm M
-
-    Give the UseBytes macro a version number for indexing. Revise the
-    documentation harshly. 
-
-  2006-03-11 23:22:37 (r3) by rcaputo
-  t/01_inline.t M; lib/Filter/Inline.pm M; Makefile.PL M;
-  lib/Filter/Inline/UseBytes.pm M; t/02_usebytes.t M
-
-    Fix up the Id tags, add keywords to files, and set the version
-    explicitly. 
-
-  2006-03-11 23:00:32 (r1) by rcaputo
-  /trunk A; t A; t/01_inline.t A; lib/Filter/Inline.pm A; lib A; MANIFEST
-  A; Makefile.PL A; lib/Filter/Inline/UseBytes.pm A; lib/Filter/Inline A;
-  t/02_usebytes.t A; lib/Filter A; MANIFEST.SKIP A
-
-    Initial commit. 
+    Doc fix. It said "macro" where it should have said "template". 
 
 ==============
 End of Excerpt

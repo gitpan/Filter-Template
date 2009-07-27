@@ -1,11 +1,11 @@
-# $Id: Template.pm 14 2006-06-12 04:27:31Z rcaputo $
+# $Id: Template.pm 19 2009-07-27 16:05:03Z rcaputo $
 
 package Filter::Template;
 
 use strict;
 
 use vars qw($VERSION);
-$VERSION = '1.02';
+$VERSION = '1.03';
 
 use Carp qw(croak);
 use Filter::Util::Call;
@@ -689,7 +689,7 @@ Templates can have parameters.  The syntax for template parameters was
 based on prototypes for Perl subroutines.  The two main differences
 are that parameters are named, and sigils are not used.
 
-	macro sum_2 (parameter_0, parameter_1) {
+	template sum_2 (parameter_0, parameter_1) {
 		print( parameter_0 + parameter_1, "\n" );
 	}
 
@@ -800,7 +800,7 @@ To see warnings when a template or constant is redefined, define:
 
 	sub Filter::Template::DEFINE () { 1 }
 
-=head1 BUGS
+=head1 CAVEATS
 
 Source filters are line-based, and so is the template language.  The
 only constructs that may span lines are template definitions, and
@@ -821,7 +821,19 @@ The regexp optimizer is based on code in Ilya Zakharevich's
 Text::Trie.  Better regexp optimizers were released afterwards, and
 Filter::Template should use one of them.
 
-Probably others.
+=head1 LINKS
+
+=head2 BUG TRACKER
+
+https://rt.cpan.org/Dist/Display.html?Status=Active&Queue=Filter-Template
+
+=head2 REPOSITORY
+
+http://thirdlobe.com/svn/filter-template/
+
+=head2 OTHER RESOURCES
+
+http://search.cpan.org/dist/Filter-Template/
 
 =head1 SEE ALSO
 
@@ -829,7 +841,7 @@ L<Text::Trie>, L<PAR>, L<Filter::Template::UseBytes>.
 
 =head1 AUTHOR & COPYRIGHT
 
-Filter::Template is Copyright 2000-2006 Rocco Caputo.  Some parts are
+Filter::Template is Copyright 2000-2009 Rocco Caputo.  Some parts are
 Copyright 2001 Matt Cashner.  All rights reserved.  Filter::Template
 is free software; you may redistribute it and/or modify it under the
 same terms as Perl itself.
