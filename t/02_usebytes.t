@@ -1,5 +1,4 @@
 #!/usr/bin/perl -w
-# $Id: 02_usebytes.t 6 2006-03-13 15:17:37Z rcaputo $
 # vim: filetype=perl
 
 use strict;

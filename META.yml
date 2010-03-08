@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Filter-Template
-version:            1.03
+version:            1.040
 abstract:           Source filter for inline code templating.
 author:
     - Rocco Caputo <rcaputo@cpan.org>
@@ -15,7 +15,7 @@ requires:
     Test::More:          0
 resources:
     license:     http://dev.perl.org/licenses/
-    repository:  http://thirdlobe.com/svn/filter-template/trunk
+    repository:  http://github.com/rcaputo/filter-template
 no_index:
     directory:
         - t

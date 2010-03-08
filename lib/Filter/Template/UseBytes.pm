@@ -1,5 +1,3 @@
-# $Id: UseBytes.pm 10 2006-03-13 17:09:41Z rcaputo $
-
 package Filter::Template::UseBytes;
 use Filter::Template;
 

@@ -1,5 +1,4 @@
 #!/usr/bin/perl -w
-# $Id: 01_inline.t 10 2006-03-13 17:09:41Z rcaputo $
 # vim: filetype=perl
 
 # Tests basic template features.
