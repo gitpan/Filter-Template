@@ -1,48 +1,33 @@
-================================
-2010-03-08 02:43:08 -0500 v1_040
-================================
+==================================================
+Changes from 2012-08-12 00:00:00 +0000 to present.
+==================================================
 
-  commit 6dcf6cb28103a7991ee6b4414aa15dd05e225741
+------------------------------------------
+version 1.042 at 2013-08-10 22:10:38 +0000
+------------------------------------------
+
+  Change: e94ca1960e5f547c5e21fc43e97209121954f369
   Author: Rocco Caputo <rcaputo@cpan.org>
-  Date:   Mon Mar 8 02:43:08 2010 -0500
-  
-    Prepare for git based distribution tool chain.
+  Date : 2013-08-10 18:10:38 +0000
 
-  commit b12e9f8eb43c9abd4aad3e529cc156f36eb855eb
+    Update dist.ini for new workflow. 
+
+------------------------------------------
+version 1.041 at 2013-08-04 19:25:34 +0000
+------------------------------------------
+
+  Change: 18e53d8bfd46f9add20d97d89cca452c64952ce1
   Author: Rocco Caputo <rcaputo@cpan.org>
-  Date:   Mon Mar 8 02:42:08 2010 -0500
-  
-    Rearrange distribution for git. 
+  Date : 2013-08-04 15:25:34 +0000
 
-===============================
-2009-07-27 16:05:03 -0400 v1_03
-===============================
+    Switch to Dist::Zilla. 
 
-  commit f34840c77fda21411faa0298c9452ca294b2f746
+  Change: 0327b134cb40abe2ace03803b6eb9e2169112372
   Author: Rocco Caputo <rcaputo@cpan.org>
-  Date:   Mon Jul 27 16:05:03 2009 -0400
-  
-    Reorganize documentation links.
+  Date : 2010-03-08 02:46:49 +0000
 
-  commit d72ae43eb656b2bd4f2593b3b924c63be90e351e
-  Author: Rocco Caputo <rcaputo@cpan.org>
-  Date:   Mon Jul 27 04:41:20 2009 -0400
-  
-    Add a machine-readable repository directory. Add BUG TRACKER,
-    REPOSITORY and OTHER RESOURCES sections to the docs.
+    Add a MANIFEST. Not sure where it went. 
 
-  commit 4c50587e0f192f602bed59ff6df757713b3dce5a
-  Author: Rocco Caputo <rcaputo@cpan.org>
-  Date:   Mon Nov 6 19:20:46 2006 -0500
-  
-    Set a LICENSE. Cheap kwalitee points!
-
-  commit f702faa1412f085d1a3bcad565af22328ed5c673
-  Author: Rocco Caputo <rcaputo@cpan.org>
-  Date:   Thu Jul 20 23:13:23 2006 -0400
-  
-    Doc fix. It said "macro" where it should have said "template". 
-
-==============
-End of Excerpt
-==============
+================================================
+Plus 5 releases after 2012-08-12 00:00:00 +0000.
+================================================

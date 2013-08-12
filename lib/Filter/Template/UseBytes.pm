@@ -1,8 +1,8 @@
 package Filter::Template::UseBytes;
+{
+  $Filter::Template::UseBytes::VERSION = '1.043';
+}
 use Filter::Template;
-
-use vars qw($VERSION);
-$VERSION = '1.00';
 
 # Make the "use_bytes" template evaluate to C<use bytes;> in Perl on or
 # after 5.005_55.  Systems before then don't have the option, so the
@@ -40,6 +40,10 @@ __END__
 
 Filter::Template::UseBytes - conditionally use bytes.pm depending on availability
 
+=head1 VERSION
+
+version 1.043
+
 =head1 SYNOPSIS
 
 	use Filter::Template ( isa => "Filter::Template::UseBytes" );
@@ -64,7 +68,7 @@ L<Filter::Template>.
 
 =head1 AUTHOR & COPYRIGHT
 
-Filter::Template::UseBytes is Copyright 2000-2006 Rocco Caputo.  All
+Filter::Template::UseBytes is Copyright 2000-2013 Rocco Caputo.  All
 rights reserved.  Filter::Template::UseBytes is free software; you may
 redistribute it and/or modify it under the same terms as Perl itself.
 
